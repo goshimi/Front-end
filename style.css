@@ -1,5 +1,5 @@
 body {
-    background-color: rgb(131, 189, 174);
+    background-color: rgb(84, 158, 172);
     font-family: Georgia, 'Times New Roman', Times, serif;
     text-align: center;
     margin: 20px;
@@ -12,7 +12,7 @@ img {
 
 
 header {
-    background-color: rgb(20, 99, 78);
+    background-color: rgb(40, 138, 158);
 
 }
 
@@ -22,28 +22,45 @@ h1 {
 }
 
 p {
-    color: rgb(20, 99, 78);
+    color: rgb(0, 0, 0);
     font-family: s;
     position: center;
 }
 
 ul {
-    color: rgb(20, 99, 78);
+    color: rgb(0, 0, 0);
+
 }
 
 nav {
-    background-color: rgb(20, 99, 78);
+    background-color: rgb(40, 138, 158);
     display: flex;
     justify-content: center;
+    padding: 5px;
+    word-spacing: 200px;
 }
 
 nav a {
     text-decoration: none;
     color: rgb(255, 255, 255);
+    font-weight: bold;
+    margin: 0px;
 }
 
-nav a:hover{
-  color: rgb(112, 112, 182);
- text-decoration: none;
- cursor: crosshair;
+nav a:hover {
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+    cursor: crosshair;
+}
+
+section {
+    margin: 20px;
+}
+
+footer {
+    background-color: rgb(243, 243, 243);
+    color: rgb(0, 0, 0);
+    position: fixed;
+    padding: 10px;
+    bottom: 0;
 }
